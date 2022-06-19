@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'pj-studio';
+  src: url('../assets/fonts/pj-studio.eot?57060500');
+  src: url('../assets/fonts/pj-studio.eot?57060500#iefix') format('embedded-opentype'),
+       url('../assets/fonts/pj-studio.woff2?57060500') format('woff2'),
+       url('../assets/fonts/pj-studio.woff?57060500') format('woff'),
+       url('../assets/fonts/pj-studio.ttf?57060500') format('truetype'),
+       url('../assets/fonts/pj-studio.svg?57060500#pj-studio') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'pj-studio';
+    src: url('../font/pj-studio.svg?59619695#pj-studio') format('svg');
+  }
+}
+*/
+[class^="pj-"]:before, [class*=" pj-"]:before {
+  font-family: "pj-studio";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.pj-down-open-big:before { content: '\e800'; } /* '' */
+.pj-left-open-big:before { content: '\e801'; } /* '' */
+.pj-right-open-big:before { content: '\e802'; } /* '' */
+.pj-up-open-big:before { content: '\e803'; } /* '' */
+.pj-shield-check:before { content: '\e804'; } /* '' */
+.pj-dash:before { content: '\e805'; } /* '' */
+.pj-chevron-down:before { content: '\e806'; } /* '' */
+.pj-chevron-left:before { content: '\e807'; } /* '' */
+.pj-chevron-right:before { content: '\e808'; } /* '' */
+.pj-chevron-up:before { content: '\e809'; } /* '' */
+.pj-angle-down-1:before { content: '\e80a'; } /* '' */
+.pj-angle-left-1:before { content: '\e80b'; } /* '' */
+.pj-angle-right-1:before { content: '\e80c'; } /* '' */
+.pj-angle-up-1:before { content: '\e80d'; } /* '' */
+.pj-facebook:before { content: '\e80e'; } /* '' */
+.pj-twitter:before { content: '\e80f'; } /* '' */
+.pj-linkedin-in:before { content: '\e810'; } /* '' */
+.pj-google-plus-g:before { content: '\e811'; } /* '' */
+.pj-circle-check:before { content: '\e812'; } /* '' */
+.pj-apple:before { content: '\e813'; } /* '' */
+.pj-pen:before { content: '\e814'; } /* '' */
+.pj-location-arrow:before { content: '\e815'; } /* '' */
+.pj-comments:before { content: '\e816'; } /* '' */
+.pj-file-import:before { content: '\e817'; } /* '' */
+.pj-shield-halved:before { content: '\e818'; } /* '' */
+.pj-down:before { content: '\e819'; } /* '' */
+.pj-up:before { content: '\e81a'; } /* '' */
+.pj-thumbs-up:before { content: '\e81b'; } /* '' */

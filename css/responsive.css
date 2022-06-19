@@ -1,0 +1,570 @@
+@media only screen and (max-width:550px ){
+
+    #nav-bar {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #logo-container {
+        width: 75px;
+        height: 24px;
+    }
+
+    #nav-button button {
+        padding: 10px 8px;
+        font-size: 2.5vw;
+        width: max-content;
+    }
+
+    #top-banner {
+        grid-template-columns: 1fr;
+    }
+
+    #top-banner pre {
+        font-size: 10vw;
+    }
+
+    #small-circle {
+        width: 30px;
+        height: 30px;
+        transform: translate(-13px, 17px);
+    }
+
+    #location-arrow-container {
+        width: 60px;
+        height: 60px;
+    }
+
+    #location-arrow-container i {
+        font-size: 40px;
+    }
+
+    #try-demo-button button {
+        margin-right: 10px;
+    }
+
+    .pj-dash {
+        font-size: 6px;
+    }
+    #try-demo-button span {
+        font-size: 3vw;
+    }
+
+    /* shapes on mobile devices */
+    .polygon {
+        width: 292px;
+        height: 188px;
+    }
+
+    .polygon-parent {
+        right: 30px;
+        top:150px;
+    }
+
+    #shape1 {
+        width: 214px;
+        height: 152px;
+        top:165px;
+        right: 45px;
+    }
+
+    #shape2 {
+        width: 78px;
+        height: 48px;
+        top: 260px;
+        right: 165px;
+    }
+
+    #shape2 span {
+        width: 62px;
+        height: 20px;
+        margin: 7px auto 0 auto;
+    }
+
+    #shape3 {
+        position: absolute;
+        width: 40px;
+        height: 49px;
+        top:260px;
+        right: 115px;
+    }
+
+    #shape3 span {
+        width: 26px;
+        height: 29px;
+        margin: 7px auto 0 auto;
+    }
+
+    #shape4 {
+        width: 39px;
+        height: 49px;
+        top:195px;
+        right: 203px;
+    }
+
+    #shape4 span {
+        width: 23px;
+        height: 23px;
+        margin: 7px auto 0 auto;
+    }
+
+    #shape5 {
+        width: 78px;
+        height: 49px;
+        top:195px;
+        right: 115px;
+    }
+
+    #shape5 span {
+        width: 62px;
+        height: 23px;
+        margin: 7px auto 0 auto;
+    }
+
+    #shape6 {
+        width: 78px;
+        height: 39px;
+        top: 180px;
+        right: 7px;
+    }
+
+    #shape6 span {
+        width: 32px;
+        height: 26px;
+        margin: 7px 0 7px 7px;
+    }
+
+    #shape7 {
+        width: 45px;
+        height: 78px;
+        top:280px;
+        right: 50px;
+    }
+
+    #shape7 span {
+        width: 32px;
+        height: 39px;
+        background-color: var(--tertiary-color);
+        display: block;
+        margin: 7px 0 7px 7px;
+    }
+
+    #shape8 {
+        right: 5px;
+        top:130px;
+    }
+
+    #shape8 div {
+        width: 42px;
+        height: 42px;
+    }
+
+    #shape9 {
+        top: 230px;
+        right: 270px;
+    }
+
+    #shape9 div {
+        width: 65px;
+        height: 65px;
+    }
+
+    #shape10 {
+        width: 65px;
+        height: 52px;
+        top: 325px;
+        right: 218px;
+    }
+
+    #shape10 div {
+        width: 65px;
+        height: 48px;
+    }
+
+    #shape10 div span {
+        width: 7px;
+        height: 7px;
+        margin: 7px 7px 0 0 ;
+    }
+
+    #shape10 div div {
+        height: 40px;
+        font-size: 10px;
+    }
+    #shape10 div div strong{
+        padding-right: 5px;
+        font-size: var(--fs-7);
+    }
+
+    #shape11 {
+        width: 48px;
+        height: 58px;
+        right: 260px;
+        top: 135px;
+    }
+
+    #shape11 div {
+        width: 48px;
+        height: 54px;
+    }
+
+    #shape11 div span {
+        width: 7px;
+        height: 7px;
+        margin: 7px 0 0 7px ;
+    }
+
+    #shape11 div div {
+        height: 40px;
+        font-size: 10px;
+    }
+    #shape11 div div strong{
+        padding-right: 5px;
+        font-size: var(--fs-7);
+    }
+
+    #shape2,
+    #shape3,
+    #shape4,
+    #shape5,
+    #shape6,
+    #shape7 {
+        box-shadow: rgba(0,0,0,0.2) 0 2px 2px 2px;
+    }
+
+    #our-process {
+        grid-template-columns: 1fr !important;
+        margin-top: 50px !important;
+    }
+
+    #first-process {
+        justify-items: center;
+        text-align: center;
+    }
+
+    #features {
+        grid-template-columns: 1fr !important;
+    }
+
+    #phone-container {
+        min-height: 500px;
+    }
+
+    #footer-contents {
+        grid-template-columns: 1fr !important;
+        grid-template-areas:
+                "newsletter"
+                "about"
+                "links1"
+                "links2" !important;
+    }
+
+    #signup-area {
+        margin: 0 5px 0 5px;
+    }
+
+    #signup-now p {
+        font-size: 3.2vw;
+    }
+
+    #signup-banner span {
+        width: 250px;
+        height: 220px;
+    }
+
+    .footer-container {
+        padding: 0 !important;
+    }
+
+    .offers-option {
+        max-width: 330px;
+    }
+
+    #customize-offers-banner {
+        padding: 175px 0 0 0;
+    }
+    #banner-background {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        right: 25px !important;
+        clip-path: circle(125px at 50% 0)
+    }
+
+    #customize-offers-banner {
+        padding-top: 50px;
+    }
+
+    #offers-banner {
+        position: relative !important;
+    }
+
+    #banner-image {
+        width: 250px;
+        height: 250px;
+        transform: translate(-25.35%,-147.4%);
+        clip-path: circle(125px at 50% 50%);
+    }
+
+    #clients-count {
+        top: -130px;
+        right: -5px;
+    }
+
+    #x-small-circle {
+        width: 15px !important;
+        height: 15px !important;
+        top: 120px !important;
+        right: 290px !important;
+    }
+    .offers-option {
+        display: grid;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .offers-option h4 {
+        font-size: 4.5vw;
+    }
+    #clients-count h6 {
+        font-size: 3vw;
+    }
+
+    #x-small-circle {
+        top: 370px;
+        right: 140px;
+    }
+}
+
+/* for tablets */
+@media only screen and (max-width:780px){
+
+    #nav-bar {
+        grid-template-columns: auto 1fr 1fr;
+        justify-content: left;
+        column-gap: 20px;
+    }
+     #nav-button {
+         justify-self: right;
+     }
+    #desktop-nav-menu {
+        display: none;
+    }
+    #mobile-nav-menu {
+        display: block;
+    }
+
+    #top-banner {
+        grid-template-columns: 1fr;
+    }
+
+    #heading {
+        display: grid;
+        justify-content: center;
+    }
+
+    #heading p, #try-demo-button {
+        justify-self: center;
+    }
+
+    #our-process {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 150px;
+    }
+
+    #features {
+        grid-template-columns: 60% 40%;
+    }
+
+    #features-texts-container {
+        padding: 30px 15px 30px 15px;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #features-boxes-container {
+        padding-right: 0;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        margin-top: 35px;
+    }
+
+    .features-boxes {
+        justify-items: center;
+        text-align: center;
+    }
+
+    #customize-offers-contents {
+        grid-template-columns: 1fr;
+    }
+
+    #customize-offers-options {
+        justify-content: center;
+    }
+
+    #signup-area {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        height: fit-content;
+        padding: 20px;
+    }
+
+    #signup-now {
+        justify-items: center;
+    }
+
+    #footer-contents {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+                "about newsletter"
+                "links1 links2"
+                ;
+        column-gap: 10px;
+        row-gap: 50px;
+    }
+
+    #modal-content {
+        max-width: 80%;
+    }
+
+    #modal-image-container {
+        max-width: 100%;
+    }
+
+    .footer-columns:nth-child(1) {
+        grid-area: about ;
+    }
+    .footer-columns:nth-child(2) {
+        grid-area: links1 ;
+    }
+    .footer-columns:nth-child(3) {
+        grid-area: links2 ;
+    }
+    .footer-columns:nth-child(4) {
+        grid-area: newsletter ;
+    }
+
+    #footer-container {
+        padding: 0 0 0 0;
+    }
+
+    footer {
+        height: fit-content;
+    }
+
+    .footer-columns form input[type=email], .footer-columns form input[type=submit] {
+        font-size: var(--fs-7);
+    }
+    .footer-columns form input[type=submit] {
+        background-color: var(--secondary-color);
+        padding: 12px 10px;
+    }
+
+    .footer-columns form {
+        padding: 3px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4px;
+        align-items: center;
+    }
+
+}
+
+/* for desktop non-wide screens */
+@media only screen and (min-width: 1100px) and (max-width:1300px ){
+    #top-banner {
+        grid-template-columns: 40% 60%;
+    }
+    #top-banner pre {
+        font-size: 3.5em;
+    }
+}
+
+/* for desktop small screens */
+@media only screen and (min-width: 780px) and (max-width:1100px ){
+    #top-banner {
+        grid-template-columns: 1fr;
+    }
+
+    #heading {
+        display: grid;
+        justify-content: center;
+    }
+
+    #heading p, #try-demo-button {
+        justify-self: center;
+    }
+
+    .offers-option {
+        width: 420px;
+    }
+
+    #features {
+        grid-template-columns: 30% 70%;
+    }
+
+    #features-texts-container {
+        padding: 45px 30px 20px 30px;
+        text-align: center;
+    }
+
+    #features-boxes-container {
+        padding-right: 0;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        margin-top: 35px;
+    }
+
+    .features-boxes {
+        justify-items: center;
+        text-align: center;
+    }
+
+    #our-process > div:nth-child(2), #our-process > div:nth-child(3), #our-process > div:nth-child(4) {
+        padding: 20px;
+    }
+
+    #signup-area {
+        margin: 0 0 0 0;
+    }
+    #signup-now {
+        margin-left: 15px;
+        justify-items: center;
+    }
+
+    #signup-now p {
+        font-size: 1.6vw;
+    }
+
+    #signup-banner span {
+        width: 330px;
+        height: 300px;
+    }
+
+    #footer-container {
+        padding: 0 0 0 0;
+    }
+    #social-icons i {
+        font-size: var(--fs-6);
+        border-radius: 50%;
+        padding: 4px;
+    }
+
+    #banner-background {
+        width: 380px;
+        height: 380px;
+        clip-path: circle(190px at 50% 0)
+    }
+
+    #banner-image {
+        width: 350px;
+        height: 350px;
+        transform: translate(-10.6%,-151.7%);
+        clip-path: circle(175px at 50% 50%);
+    }
+
+    #x-small-circle {
+        top: 370px;
+        right: 420px;
+    }
+
+}
