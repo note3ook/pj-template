@@ -8,7 +8,7 @@
 :heavy_check_mark: customisable shapes and elements
 
 ##Live demo
-Visit [Demo Page](https://note3ook.github.io/pj-template/index.html)
+Visit [Demo Page](https://note3ook.github.io/pj-template.github.io)
 
 ## Full screenshot
 ![](assets/images/shot.png)
