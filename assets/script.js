@@ -19,7 +19,7 @@ upVote.forEach(function (e,i){
         if (downVote[i].classList.contains('down-vote')){
             downVote[i].classList.remove('down-vote');
         }
-        e.classList.add('up-vote');
+        e.classList.toggle('up-vote');
     })
 })
 
@@ -28,7 +28,7 @@ downVote.forEach(function (e,i){
         if (upVote[i].classList.contains('up-vote')){
             upVote[i].classList.remove('up-vote');
         }
-        e.classList.add('down-vote');
+        e.classList.toggle('down-vote');
     })
 })
 
